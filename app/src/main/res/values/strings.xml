@@ -4,6 +4,9 @@
     <string name="app_home">Home</string>
     <string name="app_source">https://chengxue2020.github.io/Cat-ports/main.json</string>
 
+    // About //
+    <string name="dia_about">This software only provides aggregated display functions, all resources come from the Internet, and the software does not participate in any content production, upload, storage, download,etc.The software is only for learning reference, please delete it within 24 hours after installation. \n\nPlease keep the source after package distribution\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
+
     // Home Page //
     <string name="hm_ok">Load Complete</string>
     <string name="hm_notok">Load Fail</string>
