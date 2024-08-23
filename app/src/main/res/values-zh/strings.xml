@@ -5,7 +5,7 @@
     <string name="app_source">https://chengxue2020.github.io/Cat-ports/pg/jsm.json</string>
 
     // 关于界面 //
-    <string name="dia_about">版本：20240823-2345\n更新日志：\n重新起航\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
+    <string name="dia_about">版本：20240819-1117\n更新日志：\n重新起航1、添加本地M3U8文件可播放\n2、解决搜索页面闪退报错\n3、剧集判空增强\n4、支持js爬虫本地代理、点播失败时自动切换播放器播放\n\n本软件只提供聚合展示功能，所有资源来自网上, 软件不参与任何制作, 上传, 储存, 下载等内容. 软件仅供学习参考, 请于安装后24小时内删除。\n\n打包分发请保留出处\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
 
     // Home Page //
     <string name="hm_ok">加载成功</string>
