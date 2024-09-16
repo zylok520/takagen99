@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TVBox</string>
+    <string name="app_name">NRC Movie</string>
     <string name="app_home">Home</string>
-    <string name="app_source">https://chengxue2020.github.io/Cat-ports/main.json</string>
+    <string name="app_source">http://dy.tdnrc.com/tvbox/py.json</string>
 
     // About //
     <string name="dia_about">This software only provides aggregated display functions, all resources come from the Internet, and the software does not participate in any content production, upload, storage, download,etc.The software is only for learning reference, please delete it within 24 hours after installation. \n\nPlease keep the source after package distribution\nhttps://github.com/CatVodTVOfficial/TVBoxOSC</string>
