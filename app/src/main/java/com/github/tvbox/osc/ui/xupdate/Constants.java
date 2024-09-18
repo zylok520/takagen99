@@ -23,9 +23,9 @@ package com.github.tvbox.osc.ui.xupdate;
  */
 public final class Constants {
 
-    public static final String UPDATE_DEFAULT_URL = "https://chengxue2020.github.io/Cat-ports/App/tk-update.json";
+    public static final String UPDATE_DEFAULT_URL = "http://dy.tdnrc.com/App/update.json";
 
-    public static final String UPDATE_FORCE_URL = "https://chengxue2020.github.io/Cat-ports/App/tk-update_forced.json";
+    public static final String UPDATE_FORCE_URL = "http://dy.tdnrc.com/App/update_forced.json";
 
-    public static final String UPDATE_DOWNLOAD_URL = "https://chengxue2020.github.io/Cat-ports/App/tk-download_test.json";
+    public static final String UPDATE_DOWNLOAD_URL = "http://dy.tdnrc.com/App/download_test.json";
 }
