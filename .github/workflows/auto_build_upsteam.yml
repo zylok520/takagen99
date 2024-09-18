@@ -1,8 +1,8 @@
 name: Auto Build upsteam
 
 on:
-  schedule:
-    - cron: 30 0-18/8 * * *
+  #schedule:
+    #- cron: 30 0-18/8 * * *
   workflow_dispatch:
     inputs:
       rebuild:
