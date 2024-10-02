@@ -95,20 +95,21 @@ jobs:
           ./gradlew assemblerelease --build-cache --parallel --daemon --warning-mode all
       - name: Prepare App
         if: ${{ env.commit }}
-        working-directory: TVBoxOSCnrc
+        working-directory: TVBoxOSC
         run: |
           rm -rf apk/
           mkdir -p apk/
           for file in `find ~ -name "*release*.apk" -print`; do
             # 获取文件的基本名称
             base=$(basename "$file")
-            # 如果文件是arm64或armeabi架构的APK文件
-            if [[ "$base" == *"arm64-generic.apk"* ]] || [[ "$base" == *"armeabi-generic.apk"* ]]; then
-              new_base="TVBox_generic_${{ matrix.userName }}_${{ env.tag }}.apk"
-              mv "$file" "apk/$new_base"
+            # 如果文件是 *generic
+            if [[ "$base" == *generic ]]; then
+              new_base=$(echo "$base" | sed "s/release/${{ matrix.userName }}_${{ env.tag }}/")
             else
-              mv "$file" "apk/$base"
+              new_base="TVBox_${{ matrix.userName }}_${{ env.tag }}.apk"
             fi
+            # 移动并重命名文件
+            mv "$file" "apk/$new_base"
           done
           mv source-${{ env.commitS }}.* apk/
       - name: Upload App To Artifact
